@@ -2,7 +2,7 @@
 
 ## 一、项目初衷
 
-该repo旨在给 [极创工作室](https://geek-tech.club) 的学弟学妹提供一个大致的人工智能学习路径图，该路径图仅供参考，具体实施需要结合自己的实际情况就行选择。我们欢迎更多的同学对该repo有更多建议和优化方案，欢迎您使用`Forking`工作流提交 Pull Request，具体参考[atlassian文档](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow)，大致步骤如下：
+该repo旨在给 [极创工作室](https://geek-tech.club) 和 西电科创社 的学弟学妹提供一个大致的人工智能学习路径图，该路径图仅供参考，具体实施需要结合自己的实际情况就行选择。我们欢迎更多的同学对该repo有更多建议和优化方案，欢迎您使用`Forking`工作流提交 Pull Request，具体参考[atlassian文档](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow)，大致步骤如下：
 
 1. 在GitHub上Fork本仓库
 2. Clone Fork后的个人仓库
@@ -20,9 +20,52 @@
 2. Datawhale人工智能培养方案
 3. https://tjxj.github.io/
 
+
+
+
+
 ### 2.2 必备技能
 
+- 前置技能
 
+  1. Git
+
+  2. **Github**
+
+  3. **搜索引擎**
+
+     <img src="./figures/meme.jpg" align="center" style="zoom:67%;" />
+
+  4. python
+
+     1. Numpy
+     2. Pandas
+     3. 数据读取：Opencv和PIL
+
+- 数学知识
+
+  不论是机器学习还是深度学习，其实质是一个数学优化问题。因此，人工智能与数学紧密相关（当然，你不懂数学但是也可以会用），我希望各位能从道的角度去学习人工智能，而不是从术的角度只是去调用现有成熟的API。我们在下面列出和人工智能关系比较密切的数学。
+
+  1. 高等数学（上\下）
+  2. 线性代数
+  3. 概率论与数理统计
+  4. 最优化方法
+
+- 框架运用
+
+  1. 框架简介
+
+  2. PyTorch
+
+     允许我在这先打个广告：我们为了帮助大家更好的学习PyTorch，我们开设了[thorough-pytorch](https://github.com/datawhalechina/thorough-pytorch)课程，如果大家觉得有帮助的话，欢迎大家动一动小手点个star。	
+
+  3. Tensorflow2.x
+
+  4. Keras
+
+  5. Paddlepaddle
+
+  6. JAX
 
 ## 二、课程资料
 
@@ -54,6 +97,8 @@
 
 ## 三、书籍资料
 
+> 我学习的路子比较野，并看不下去太厚的书，但是我不排除学弟学妹之中有爱看书的孩子，我们在这也推荐几本不错的书。
+
 | 编号 | 书籍名称                          | 出版社          |
 | ---- | --------------------------------- | --------------- |
 | 01   | Python编程：从入门到实践 - 第二版 | 人邮&工信出版社 |
@@ -68,7 +113,31 @@
 
 
 
-## 三、Paper推荐
+## 三、Paper推荐(经典之作)
+
+> 教给大家一个搜索的方式：-> Github -> Awesome-想搜索的方向（eg: Awesome-object-detection
+
+### 2016
+
+<p>
+<font size=3><b>[ResNet] End-to-End Object Detection with Transformers.</b></font>
+<br>
+<font size=2>Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun.</font>
+<br>
+<font size=2>CVPR 2016.</font>
+<a href='https://arxiv.org/abs/1512.03385'>[paper]</a> <a href='https://github.com/pytorch/vision/blob/main/torchvision/models/resnet.py'>[code]</a>    
+</p>
+
+### 2020
+
+<p>
+<font size=3><b>[DETR] End-to-End Object Detection with Transformers.</b></font>
+<br>
+<font size=2>Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, Sergey Zagoruyko.</font>
+<br>
+<font size=2>ECCV 2020.</font>
+<a href='https://arxiv.org/abs/2005.12872'>[paper]</a> <a href='https://github.com/facebookresearch/detr'>[code]</a>    
+</p>
 
 
 
