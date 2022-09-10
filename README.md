@@ -129,15 +129,18 @@
 
 | 编号 | 书籍名称                          | 出版社          |
 | ---- | --------------------------------- | --------------- |
-| 01   | Python编程：从入门到实践 - 第二版 | 人邮&工信出版社 |
+| 01   | Python编程：从入门到实践 - 第二版  | 人邮&工信出版社 |
 | 02   | 机器学习的数学 - 雷明             | 人邮&工信出版社 |
-| 03   | 机器学习公式详解 - 谢文睿、秦州   | 异步图书        |
-| 04   | 机器学习 - 周志华                 | 异步图书        |
-| 05   | Deep Learning 深度学习            | 人邮            |
-| 06   |                                   |                 |
-| 07   |                                   |                 |
-| 08   |                                   |                 |
-|      |                                   |                 |
+| 03   | 机器学习公式详解 - 谢文睿、秦州    | 异步图书        |
+| 04   | 机器学习 - 周志华                 | 异步图书       |
+| 05   | 统计学习方法 - 李航               | 清华大学出版社  |
+| 06   | 动手学深度学习 - 李沐             | 人民邮电出版社  |
+| 07   | 深度学习 - （花书）               | 人民邮电出版社  |
+| 08   | 神经网络与深度学习 - 邱锡鹏        | 机械工业出版社  |
+| 09   | 深度学习推荐系统 - 王喆           | 电子工业出版社  |
+| 10   | 信息检索导论 - 王斌（译）          | 人民邮电出版社  |
+| 11   |                                  |               |
+
 
 
 
@@ -148,7 +151,7 @@
 ### 2016
 
 <p>
-<font size=3><b>[ResNet] End-to-End Object Detection with Transformers.</b></font>
+<font size=3><b>[ResNet] Deep Residual Learning for Image Recognition.</b></font>
 <br>
 <font size=2>Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun.</font>
 <br>
@@ -156,6 +159,16 @@
 <a href='https://arxiv.org/abs/1512.03385'>[paper]</a> <a href='https://github.com/pytorch/vision/blob/main/torchvision/models/resnet.py'>[code]</a>    
 </p>
 
+### 2017
+
+<p>
+<font size=3><b>[Transformers] Attention is All you Need.</b></font>
+<br>
+<font size=2>Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin.</font>
+<br>
+<a href='https://arxiv.org/abs/1706.03762'>[paper]</a>
+</p>
+  
 ### 2020
 
 <p>
