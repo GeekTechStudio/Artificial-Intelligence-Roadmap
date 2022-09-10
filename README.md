@@ -43,9 +43,15 @@
 
   3. **搜索引擎**
 
+     问问题之前，先使用搜索引擎... ...
+
      <img src="./figures/meme.jpg" align="center" style="zoom:67%;" />
 
-  4. python
+  4. markdown
+
+     在Github上的项目里，我们会发现很多以.md结尾的文件，主要记录的是一些文档资料。而这些文件就是用markdown写的文件。markdown是程序员必备的写文档技能，相较于word而言，可以带来更高的打字享受，学习周期短（大概30min）。
+
+  5. python
 
      许多机器学习和深度学习框架都是基于Python开发，因此python的学习至关重要。（个人认为，学到面向对象就行了）python的学习我只推荐两个资料，一个是下方三中的01 **Python编程：从入门到实践 - 第二版**和**廖雪峰老师写的python教程** -> [url](https://www.liaoxuefeng.com/wiki/1016959663602400)。除去基本的学习以外，深度学习和机器学习涉及到大量的张量操作和图片读取操作，我个人建议大家可以再学习下下方的三个库。
 
@@ -148,6 +154,15 @@
 
 > 教给大家一个搜索的方式：-> Github -> Awesome-想搜索的方向（eg: Awesome-object-detection
 
+### 读论文
+
+工欲善其事，必先利其器。我觉得每个人找到一个适合自己读论文的方式就ok，在这里，我先分享下我一般读论文的workflow和工具。
+
+1. Readpaper
+2. Typora
+3. Zotero
+4. 飞书
+
 ### 2016
 
 <p>
@@ -168,7 +183,7 @@
 <br>
 <a href='https://arxiv.org/abs/1706.03762'>[paper]</a>
 </p>
-  
+
 ### 2020
 
 <p>
