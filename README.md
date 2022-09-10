@@ -30,13 +30,24 @@
 
   1. Git
 
+     Git是目前世界上最先进的分布式版本控制系统（个人意见，不喜勿喷）。版本控制系统就是可以使我们的代码回溯到特定的阶段（避免疯狂ctrl z，没错说的就是屏幕前面不会有版本控制软件的你）。至于这些名词，我觉得大家去查一下就知道了。学习资料的话，推荐下面几个资料，希望能够帮助大家：
+
+     1. 廖雪峰Git教程 -> [url](https://www.liaoxuefeng.com/wiki/896043488029600/896067008724000)
+     2. Git pro -> [url](https://www.progit.cn/)
+     3. Git官网
+     4. faster-git -> [url](https://github.com/datawhalechina/faster-git) (好吧，这个也是我不要脸，打广告/doge，动动小手点个star)
+
   2. **Github**
+
+     Github我觉得是必须要掌握的技能之一，在Github上你不仅可以学习（~~copy~~)代码的规范书写，还可以学习到一些奇奇怪怪的技能（比如：how to cook）。但是，希望对Github上的内容进行辨别，做一个爱党爱国的好青年，而不是散发奇怪言论。
 
   3. **搜索引擎**
 
      <img src="./figures/meme.jpg" align="center" style="zoom:67%;" />
 
   4. python
+
+     许多机器学习和深度学习框架都是基于Python开发，因此python的学习至关重要。（个人认为，学到面向对象就行了）python的学习我只推荐两个资料，一个是下方三中的01 **Python编程：从入门到实践 - 第二版**和**廖雪峰老师写的python教程** -> [url](https://www.liaoxuefeng.com/wiki/1016959663602400)。除去基本的学习以外，深度学习和机器学习涉及到大量的张量操作和图片读取操作，我个人建议大家可以再学习下下方的三个库。
 
      1. Numpy
      2. Pandas
@@ -47,25 +58,42 @@
   不论是机器学习还是深度学习，其实质是一个数学优化问题。因此，人工智能与数学紧密相关（当然，你不懂数学但是也可以会用），我希望各位能从道的角度去学习人工智能，而不是从术的角度只是去调用现有成熟的API。我们在下面列出和人工智能关系比较密切的数学。
 
   1. 高等数学（上\下）
+
+     高等数学是最基础的一门学科，机器学习与深度学习与数学关系密切，因此建议大家好好学习高等数学（不要轻视）
+
   2. 线性代数
+
+     线性代数同样是基础的一门学科，因为机器学习和深度学习涉及大量的矩阵操作知识，说实话，没学懂也不影响你用。但是我希望大家能从道的角度去学习，而不是局限于术的层次学习使用。
+
   3. 概率论与数理统计
+
+     同样是一门极其重要的课程，在大三上的机器学习，模式识别中占据及其重要的地位。
+
   4. 最优化方法
+
+     深度学习和机器学习实际上都是根据数据去优化模型，因此优化方法十分重要。这门课在西安电子科技大学20级人工智能专业是在大二下开设，个人觉得学起来倒也不是很难，是挺有趣的一门学科。
 
 - 框架运用
 
   1. 框架简介
 
+     为了优化大家的开发体验，Google，Meta，Amazon，百度等机构推出了许多深度学习和机器学习框架，下图来源于paper with code -> [url](https://paperswithcode.com/trends)。我们可以看见整体上Pytorch已经从老大哥Tensorflow上接过了接力棒，因此我们还是建议大家学习PyTorch。
+
+     <img src="./figures/trend.png" align="center" style="zoom:200%;" />
+
   2. PyTorch
 
-     允许我在这先打个广告：我们为了帮助大家更好的学习PyTorch，我们开设了[thorough-pytorch](https://github.com/datawhalechina/thorough-pytorch)课程，如果大家觉得有帮助的话，欢迎大家动一动小手点个star。	
+     **允许我在这先打个广告：我们为了帮助大家更好的学习PyTorch，我们开设了[thorough-pytorch](https://github.com/datawhalechina/thorough-pytorch)课程，如果大家觉得有帮助的话，欢迎大家动一动小手点个star。**	
 
   3. Tensorflow2.x
 
   4. Keras
-
+  
   5. Paddlepaddle
-
+  
   6. JAX
+  
+  7. MXNet
 
 ## 二、课程资料
 
@@ -112,6 +140,7 @@
 | 09   | 深度学习推荐系统 - 王喆           | 电子工业出版社  |
 | 10   | 信息检索导论 - 王斌（译）          | 人民邮电出版社  |
 | 11   |                                  |               |
+
 
 
 
@@ -167,13 +196,14 @@
 | 08   | 专知                      | [[url](https://www.zhuanzhi.ai/?from=www.ainav.cn)]          |
 | 09   | 神力AI                    | [[url](https://manaai.cn/)]                                  |
 | 10   | 月来客栈                  | [[url](https://www.ylkz.life/)]                              |
-|      |                           |                                                              |
+| 11   | paper with code           | [[url](https://paperswithcode.com/)]                         |
+| 12   | 动手学深度学习            | [[url](http://zh.d2l.ai/)]                                   |
 
 > 带*号的链接需要梯子才能访问
 
 ## LICENSE
 
- <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey" /></a>
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey" /></a>
 
 本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。
 
