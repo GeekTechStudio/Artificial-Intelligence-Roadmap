@@ -122,7 +122,7 @@
 ### 2016
 
 <p>
-<font size=3><b>[ResNet] End-to-End Object Detection with Transformers.</b></font>
+<font size=3><b>[ResNet] Deep Residual Learning for Image Recognition.</b></font>
 <br>
 <font size=2>Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun.</font>
 <br>
@@ -130,6 +130,16 @@
 <a href='https://arxiv.org/abs/1512.03385'>[paper]</a> <a href='https://github.com/pytorch/vision/blob/main/torchvision/models/resnet.py'>[code]</a>    
 </p>
 
+### 2017
+
+<p>
+<font size=3><b>[Transformers] Attention is All you Need.</b></font>
+<br>
+<font size=2>Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin.</font>
+<br>
+<a href='https://arxiv.org/abs/1706.03762'>[paper]</a>
+</p>
+  
 ### 2020
 
 <p>
