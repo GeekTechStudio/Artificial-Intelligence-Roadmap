@@ -20,9 +20,25 @@
 2. Datawhale人工智能培养方案
 3. https://tjxj.github.io/
 
+> 想了好久，以下的学习路线仅是自己的学习路线的补充
 
+我推荐的学习路线是：练习代码 -> 学好数学 -> 学习理论 -> 大量实践
 
+1. 练习代码
 
+   我将代码放在第一位，是因为你即使有很多很好的思路，但是不能实现，都等于空谈。因此在大一的计算机导论、python和数据结构学习中，希望各位能够多刷题，毕竟代码这个事情真的是：无他，唯手熟尔。重视每一层写代码的实验，不要图方便，全程cv。除此之外，还需要自己去学习Pytorch等主流框架。
+
+2. 学好数学
+
+   我觉得学习机器学习或者深度学习理论之前，还是有一定的数学基础是最好的。比如你想了解深度学习最核心的BP反向传播，那你起码需要学完高数上的求导；你想知道张量的矩阵运算，起码应该学习线性代数；你想学习贝叶斯网络，那么起码学完概率论吧... ...总的来说，我希望各位还是能从道的角度去学习，而不是术的层面去使用，一步一个脚印。
+
+3. 学习理论
+
+   理论层面的话，我觉得可以去看下下面推荐的课程和多看一些比较经典的书籍。
+
+4. 大量实践
+
+   **无他，唯手熟尔**
 
 ### 2.2 必备技能
 
@@ -158,43 +174,32 @@
 
 工欲善其事，必先利其器。我觉得每个人找到一个适合自己读论文的方式就ok，在这里，我先分享下我一般读论文的workflow和工具。
 
-1. Readpaper
-2. Typora
-3. Zotero
-4. 飞书
+- Readpaper
 
-### 2016
+​		Readpaper是由IDEA数字经济研究院开发的，当前，ReadPaper共收录近2亿篇论文、2.7亿位作		者、近3万所高校及研究机构，几乎涵盖了全人类所有学科。科研工作离不开论文的帮助，如何读		懂论文，读好论文，这本身就是一个很大的命题，Readpaper希望:"让天下没有难读的论文 "。
 
-<p>
-<font size=3><b>[ResNet] Deep Residual Learning for Image Recognition.</b></font>
-<br>
-<font size=2>Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun.</font>
-<br>
-<font size=2>CVPR 2016.</font>
-<a href='https://arxiv.org/abs/1512.03385'>[paper]</a> <a href='https://github.com/pytorch/vision/blob/main/torchvision/models/resnet.py'>[code]</a>    
-</p>
+​		个人体验了许久，认为Readpaper还是一个很好用的软件，也是我现在看论文的主力软件。
 
-### 2017
+- Typora
 
-<p>
-<font size=3><b>[Transformers] Attention is All you Need.</b></font>
-<br>
-<font size=2>Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin.</font>
-<br>
-<a href='https://arxiv.org/abs/1706.03762'>[paper]</a>
-</p>
+  Typora是一款书写markdown的工具，我主要是用来做一些总结工作，虽然它现在买断是89元，但是我觉得这个钱还是花的比较值的。
 
-### 2020
+- Zotero
 
-<p>
-<font size=3><b>[DETR] End-to-End Object Detection with Transformers.</b></font>
-<br>
-<font size=2>Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, Sergey Zagoruyko.</font>
-<br>
-<font size=2>ECCV 2020.</font>
-<a href='https://arxiv.org/abs/2005.12872'>[paper]</a> <a href='https://github.com/facebookresearch/detr'>[code]</a>    
-</p>
+​		Zotero也是一款文献管理工具，但是当我用了Readpaper后就慢慢不用了，可能我只需要一些简单		功能就行了。
 
+- 飞书
+
+​		飞书在线文档可以说是我用过的所有在线文档里最好的那个了，同样是使用markdown书写。
+
+- 如何寻找论文
+
+  我个人寻找论文的途径有以下几个来源：
+
+  - paper with code
+  - arxiv
+  - IEEE Xplore
+  - 谷歌学术
 
 
 ## 四、网站推荐
